@@ -1,0 +1,252 @@
+@media only screen and (max-width: 1024px) {
+    .navbar-expand-lg .navbar-nav .nav-link {
+        padding: 8px 10px;
+    }
+
+    .owl-carouselOne .owl-dots {
+        position: absolute;
+        top: 74%;
+        right: 88%;
+    }
+
+    .service_round {
+        width: 73px;
+        height: 73px;
+    }
+
+    .service_sec p {
+        font-size: 12px;
+    }
+
+    .abt_details {
+        padding-left: 2%;
+    }
+
+    .subscribe h2 {
+        font-size: 20px;
+    }
+
+    .social h3 {
+    font-size: 22px;
+}
+
+@media only screen and (max-width: 991px) {
+    .service_round {
+        width: 80px;
+        height: 80px;
+    }
+
+    .service_sec p {
+        font-size: 16px;
+    }
+
+    .footer_part .col-lg-4:not(:first-child) {
+        margin-top: 30px;
+    }
+
+       .header {
+            background-color: #fff;
+            box-shadow: 0px 3px 6px 0px #00000042;
+            top: 40px;
+        }
+}
+
+@media only screen and (max-width: 768px) {
+
+    .owl-carousel-part {
+        position: absolute;
+        z-index: 10;
+        top: 22%;
+        right: 48%;
+        padding: 0px 20px;
+    }
+    .owl-carouselOne .owl-dots {
+        position: absolute;
+        top: 74%;
+        right: 80%;
+    }
+    .owl-carousel-part h2 {
+        font-size: 25px;
+        line-height: 30px;
+    }
+
+    .owl-carousel-part p {
+        font-size: 14px;
+    }
+
+    .round_banner {
+        top: 60%;
+        left: 74%;
+    }
+
+    .abt-part {
+        flex-direction: column;
+    }
+
+    .abt_details {
+        margin-bottom: 35px;
+        width: 100%;
+    }
+
+    .social-md {
+        border-left: 0px solid #bfbf8c;
+        height: auto;
+        padding-left: 15px;
+        padding-top: 30px;
+    }
+
+    .navbar .navbar-brand img {
+        width: 56px;
+    }
+
+    .owl-carousel .owl-item img {
+        position: relative;
+        height: 490px;
+    }
+}
+
+@media only screen and (max-width: 575px) {
+    .abt_pic img {
+        width: 100%;
+        object-fit: cover;
+        height: 400px;
+    }
+
+    .owl-carousel-part h2 {
+        font-size: 20px;
+        line-height: 24px;
+    }
+
+    .topHeader ul li  {
+        font-size: 14px;
+    }
+    .owl-carousel-part p {
+        font-size: 11px;
+        line-height: 15px;
+    }
+    .owl-carousel-part h2 {
+        font-size: 20px;
+        line-height: 24px;
+    }
+
+    .owl-carousel-part {
+        top: 32%;
+        right: 48%;
+    }
+
+    .owl-carousel .owl-item img {
+        position: relative;
+        height: 390px;
+    }
+    .round_banner {
+        width: 100px;
+        height: 100px;
+        padding: 11px 15px 0px 20px;
+        line-height: 12px;
+    }
+
+    .round_banner span {
+        font-size: 12px;
+    }
+
+    .round_banner h4 {
+        margin-bottom: 4px;
+    }
+
+}
+
+@media only screen and (max-width: 480px) {
+     .owl-carousel-part {
+        top: 32%;
+        right: 40%;
+    }
+    .header {
+        top: 60px;
+    }
+}
+
+@media only screen and (max-width: 430px) {
+    .subscribe h2 {
+        font-size: 18px;
+    }
+
+    .social h3 {
+        font-size: 20px;
+    }
+
+    .social ul li a {
+        color: var(--black);
+        font-weight: 800;
+        font-size: 30px;
+    }
+    .abt_details h6 {
+        font-weight: 600;
+        letter-spacing: 1px;
+        margin-top: 30px;
+        
+    }
+
+    .topHeader ul li  {
+        font-size: 12px;
+    }
+
+    .services {
+        width: 100%;
+        overflow-x: hidden;
+    }
+
+    .owl-carousel .owl-item img {
+        position: relative;
+        height: 390px;
+        object-fit: cover;
+    }
+
+    .owl-carousel-part {
+        padding: 0px 15px;
+    }
+
+    .owl-carouselOne .owl-dots {
+        position: absolute;
+        top: 74%;
+        right: 67%;
+    }
+
+}
+
+@media only screen and (max-width: 411px) {
+    .services_part_heading h2 ,
+     .gallery h2 ,
+    .abt_details h2 {
+        font-size: 30px;
+    }
+
+    .abt_details p {
+        font-size: 14px;
+        margin-bottom: 15px;
+    }
+    .abt_details h6 {
+        font-size: 14px;
+    }
+
+    .owl-carouselOne .owl-dots {
+        position: absolute;
+        top: 80%;
+        right: 67%;
+    }
+
+    .round_banner {
+        top: 60%;
+        left: 67%;
+    }
+}
+
+@media only screen and (max-width: 375px) {
+    
+}
+
+@media only screen and (max-width: 320px)  {
+    .owl-carousel-part h2 {
+        font-size: 16px;
+        line-height: 18px;
+    }
+}
